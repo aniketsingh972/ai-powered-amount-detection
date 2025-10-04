@@ -13,6 +13,18 @@ A Python Flask app that extracts and classifies monetary amounts from text docum
 
 ---
 
+## Architecture
+
+The system architecture consists of three main components:
+
+- **User Input:** Raw text or image uploaded via the API
+- **Flask API:** Handles requests and responses
+- **OCR Module:** Converts image text into machine-readable text
+- **Amount Extraction & Classification:** AI model processes text to detect numeric values and classify them
+- **JSON Output:** Structured output including value, type, currency, and source text
+
+---
+
 ## Installation
 
 ```bash
@@ -26,12 +38,20 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 
 ---
-## Example: Input and Output Images
- 
-##Example
-Input Image:
 
+### Input
 ![Input Document](images/input.png)
+
+### Output
+![Output Part](images/output.png)
+
+### YAML Representation
+```yaml
+input:
+  image: "images/input.png"
+
+output:
+  image: "images/output.png"
 
 Output Image:
 
