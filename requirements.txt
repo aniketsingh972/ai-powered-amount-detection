@@ -1,2 +1,6 @@
 Flask
 requests
+python-dotenv
+pillow           # For image handling (PIL)
+opencv-python    # For advanced image preprocessing (optional)
+pytesseract      # For OCR (extract text from images)
