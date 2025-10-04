@@ -46,7 +46,7 @@ The system is designed as a modular pipeline with the following components:
 ---
 
 ## Example Run (Screenshots)
-post http://127.0.0.1:5000/api/v1/extract/text
+post (http://127.0.0.1:5001/detect-amounts)
 ### Input (Medical Bill Screenshot)
 Here is an example input image given to the service:  
 
@@ -63,8 +63,6 @@ When processed, the extracted amounts with context look like this:
 
 ---
 
-## API Usage
 
-### Health Check
-```bash
-GET http://127.0.0.1:5000/health
+
+
