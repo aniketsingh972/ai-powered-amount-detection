@@ -24,15 +24,11 @@ source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
+
+---
 ## Example: Input and Output Images
-
-Place your images in the repository, for example:
-
-- Input image: `images/input.jpg`
-- Output image (highlighted amounts or extracted results): `images/output.jpg`
-
-You can display them in the README like this:
-
+ 
+##Example
 Input Image:
 
 ![Input Document](images/input.png)
